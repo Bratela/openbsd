@@ -4,8 +4,8 @@ pkg_add ruby
 I chose 2.3.0
 2. Install gems
 pkg_add ruby-gems
-3. Add '~/.gem/ruby/2.3/bin to PATH'
-PATH="~/.gem/ruby/2.3/bin:"$PATH 
+3. Add "~/.gem/ruby/2.3/bin to PATH"
+```  PATH="~/.gem/ruby/2.3/bin:"$PATH  ```
 4. Install bundle
 gem23 install --user-install bundler
 5. Install nokogiri (or run into problems installing rails)
