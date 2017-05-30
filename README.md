@@ -1,5 +1,4 @@
-# openbsd
-Install Ruby on Rails in OpenBSD
+# Install Ruby on Rails in OpenBSD
 1. Install Ruby
 pkg_add ruby
 - I chose 2.3.0
@@ -21,7 +20,7 @@ pkg_add node
 gem 'node'
 11. ???
 12. Run bundle install to install your gems!
-bundle23 install --path=~/.gem
+''' bundle23 install --path=~/.gem  '''
 13. Profit!!
 
 the gem install --user-install bundler puts the bundler local to the user. Adding the directory to the path allows for bundler to be used where it was installed. If you want to go a step further you can soft link /usr/local/bin/ruby23 to /usr/local/bin/ruby and do something similar with /usr/local/bin/rails23 and ~/.gem/ruby/2.4/bin/bundle(r)23. I just run the commands as they are right now.
