@@ -1,11 +1,10 @@
-# Install Ruby on Rails in OpenBSD
 1. Install Ruby
 pkg_add ruby
-I chose 2.3.0
+- I chose 2.3.0
 2. Install gems
 pkg_add ruby-gems
-3. Add "~/.gem/ruby/2.3/bin to PATH"
-```  PATH="~/.gem/ruby/2.3/bin:"$PATH  ```
+3. Add ~/.gem/ruby/2.3/bin to PATH 
+PATH="~/.gem/ruby/2.3/bin:"$PATH
 4. Install bundle
 gem23 install --user-install bundler
 5. Install nokogiri (or run into problems installing rails)
@@ -20,7 +19,7 @@ pkg_add node
 gem 'node'
 11. ???
 12. Run bundle install to install your gems!
-''' bundle23 install --path=~/.gem  '''
+bundle23 install --path=~/.gem
 13. Profit!!
 
 the gem install --user-install bundler puts the bundler local to the user. Adding the directory to the path allows for bundler to be used where it was installed. If you want to go a step further you can soft link /usr/local/bin/ruby23 to /usr/local/bin/ruby and do something similar with /usr/local/bin/rails23 and ~/.gem/ruby/2.4/bin/bundle(r)23. I just run the commands as they are right now.
