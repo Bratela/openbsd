@@ -1,4 +1,7 @@
 #  Install XFCE to OpenBSD 6.0
+
+___
+
 Login with the root user
 
 Add your regular user to the wheel group
@@ -101,8 +104,26 @@ Add to the file
 Save and exit
 Ctrl+x
 
-Install some basic applications
+Install some basic applications and etc. .
 
 `pkg_add -Iv firefox thunderbird gimp vlc libreoffice`
 
 Reboot
+
+After reboot you need to login in welcome screen but this wasn't success.
+
+![alt text](fail.png "Fail")
+
+Type in form field `exit`
+
+![alt text](exit.png "Exit")
+
+After login with user's name and password.
+
+You need type `$ startxfce4`
+
+![alt text](xfce4.png "Xfce4")
+
+After it's working.
+
+![alt text](desktop.png "Xfce4")
