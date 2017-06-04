@@ -120,7 +120,7 @@ Type in form field `exit`
 
 After login with user's name and password.
 
-You need type `$ startxfce4`
+You need type: `$ startxfce4`
 
 ![alt text](xfce4.png "Xfce4")
 
